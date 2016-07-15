@@ -4,9 +4,9 @@ package vehicle;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import vehicle.amistad.AmistadService;
-import vehicle.pareja.ParejaService;
-import vehicle.persona.PersonaService;
+import vehicle.service.AmistadService;
+import vehicle.service.ParejaService;
+import vehicle.service.PersonaService;
 
 /**
  * Created by professor on 11/07/2016.

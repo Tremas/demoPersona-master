@@ -1,10 +1,12 @@
-package vehicle.pareja;
+package vehicle.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import vehicle.persona.Persona;
-import vehicle.persona.PersonaRepository;
+import vehicle.domain.Pareja;
+import vehicle.repository.ParejaRepository;
+import vehicle.domain.Persona;
+import vehicle.repository.PersonaRepository;
 
 /**
  * Created by professor on 13/07/2016.

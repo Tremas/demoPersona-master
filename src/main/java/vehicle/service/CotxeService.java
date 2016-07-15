@@ -1,9 +1,11 @@
-package vehicle.vehicle;
+package vehicle.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vehicle.persona.Persona;
-import vehicle.persona.PersonaRepository;
+import vehicle.domain.Persona;
+import vehicle.repository.PersonaRepository;
+import vehicle.domain.Cotxe;
+import vehicle.repository.CotxeRepository;
 
 import java.util.List;
 

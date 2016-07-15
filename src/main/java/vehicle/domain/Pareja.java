@@ -1,6 +1,4 @@
-package vehicle.pareja;
-
-import vehicle.persona.Persona;
+package vehicle.domain;
 
 import javax.persistence.*;
 

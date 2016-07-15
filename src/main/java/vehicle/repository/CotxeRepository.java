@@ -1,8 +1,9 @@
-package vehicle.vehicle;
+package vehicle.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import vehicle.domain.Cotxe;
 
 import java.util.List;
 

@@ -1,9 +1,10 @@
-package vehicle.pareja;
+package vehicle.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import vehicle.persona.Persona;
+import vehicle.domain.Pareja;
+import vehicle.domain.Persona;
 
 /**
  * Created by professor on 13/07/2016.

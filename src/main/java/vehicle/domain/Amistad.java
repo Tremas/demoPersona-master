@@ -1,9 +1,6 @@
-package vehicle.amistad;
-
-import vehicle.persona.Persona;
+package vehicle.domain;
 
 import javax.persistence.*;
-import java.util.Comparator;
 
 /**
  * Created by professor on 14/07/2016.

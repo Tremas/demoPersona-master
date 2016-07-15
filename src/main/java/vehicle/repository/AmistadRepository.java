@@ -1,10 +1,11 @@
-package vehicle.amistad;
+package vehicle.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import vehicle.persona.Persona;
+import vehicle.domain.Amistad;
+import vehicle.domain.Persona;
 
 import java.util.List;
 

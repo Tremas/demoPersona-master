@@ -1,9 +1,11 @@
-package vehicle.amistad;
+package vehicle.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vehicle.persona.Persona;
-import vehicle.persona.PersonaRepository;
+import vehicle.domain.Amistad;
+import vehicle.repository.AmistadRepository;
+import vehicle.domain.Persona;
+import vehicle.repository.PersonaRepository;
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
-package vehicle.persona;
+package vehicle.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import vehicle.domain.Persona;
 
 import java.util.List;
 
